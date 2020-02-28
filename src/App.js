@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './components/headers/Navbar'
 import Title from './components/headers/Title'
+import Sidebar from './components/main/Sidebar';
 import './App.css';
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
       </header>
 
       <main>
-        
+        <Sidebar />
       </main>
 
       <footer></footer>
