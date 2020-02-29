@@ -1,22 +1,24 @@
 import React from 'react';
-import Navbar from './components/headers/Navbar'
-import Title from './components/headers/Title'
-import Sidebar from './components/main/Sidebar';
+import Header from './components/Header'
+import SectionOne from './components/SectionOne'
+import Form from './components/Form'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <Title title="Bill & Bail Attornies"/>
-        <Navbar />
+      <header >
+        <Header className="headerSection" />
       </header>
 
-      <main>
-        <Sidebar />
+      <main className="container">
+        <SectionOne />
+        <Form />
       </main>
 
-      <footer></footer>
+      <footer>
+
+      </footer>
     </div>
   );
 }
