@@ -9,9 +9,11 @@ const Form = () => {
                 <input type="text" placeholder="Jane" />
                 <label htmlFor="lastname">Last Name:</label>
                 <input type="text" placeholder="Doe" />
-                <label htmlFor="email">E-mail</label>
+                <label htmlFor="email">E-mail:</label>
                 <input type="email" placeholder="janedoe@mail.com" />
-                <label htmlFor="password">Password</label>
+                <label htmlFor="password">Password:</label>
+                <input type="password" placeholder="Password" />
+                <label htmlFor="password">Confirm Password:</label>
                 <input type="password" placeholder="Password" />
                 <input type="submit" value="Join Now"/>
             </form>
